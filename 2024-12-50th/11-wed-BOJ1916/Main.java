@@ -74,7 +74,7 @@ class Solution {
         System.out.println(dist[E]);
     }
 
-    int nextInt() throws IOException {
+    private static int nextInt() throws IOException {
         int n = 0;
         int c;
         while ((c = System.in.read()) <= 32);

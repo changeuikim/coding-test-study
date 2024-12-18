@@ -110,7 +110,7 @@ class Solution {
         }        
     }
 
-    void reverse(int[] arr) {
+    private static void reverse(int[] arr) {
         for (int i = 0; i < arr.length / 2; i++) {
             int temp = arr[i];
             arr[i] = arr[arr.length - 1 - i];
@@ -118,7 +118,7 @@ class Solution {
         }        
     }
 
-    int nextInt() throws IOException {
+    private static int nextInt() throws IOException {
         int n = 0;
         int c;
         while ((c = System.in.read()) <= 32);

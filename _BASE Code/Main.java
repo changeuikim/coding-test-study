@@ -18,7 +18,7 @@ class Solution {
         System.out.println(sb);
     }
 
-    int nextInt() throws IOException {
+    private static int nextInt() throws IOException {
         int n = 0;
         int c;
         boolean neg = false;
@@ -33,7 +33,7 @@ class Solution {
         return neg ? -n : n;
     }
 
-    String nextLine() throws IOException {
+    private static String nextLine() throws IOException {
         char[] buf = new char[1024];
         int c, idx = 0;
         while ((c = System.in.read()) <= 32);

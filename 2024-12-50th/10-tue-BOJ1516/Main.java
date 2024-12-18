@@ -71,7 +71,7 @@ class Solution {
         System.out.println(sb);
     }
 
-    int nextInt() throws IOException {
+    private static int nextInt() throws IOException {
         int n = 0;
         int c;
         boolean neg = false;
